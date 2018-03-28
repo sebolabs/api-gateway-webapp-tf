@@ -1,0 +1,10 @@
+{
+  "requestId":"$context.requestId",
+  "requestTime":"$context.requestTime",
+  "ip":"$context.identity.sourceIp",
+  "protocol":"$context.protocol",
+  "httpMethod":"$context.httpMethod",
+  "resourcePath":"$context.resourcePath",
+  "status":"$context.status",
+  "responseLength":"$context.responseLength"
+}
